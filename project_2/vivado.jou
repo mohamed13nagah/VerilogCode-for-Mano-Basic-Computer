@@ -1,0 +1,322 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu May  9 01:25:10 2024
+# Process ID: 40364
+# Current directory: C:/Users/alnaser/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent36184
+# Log file: C:/Users/alnaser/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/alnaser/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/alnaser/Documents/verilog/project_3/project_3.xpr
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+create_project project_6 C:/Users/alnaser/Documents/verilog/project_6 -part xc7vx485tffg1157-1
+file mkdir C:/Users/alnaser/Documents/verilog/project_6/project_6.srcs/sources_1/new
+close [ open C:/Users/alnaser/Documents/verilog/project_6/project_6.srcs/sources_1/new/c_bus.v w ]
+add_files C:/Users/alnaser/Documents/verilog/project_6/project_6.srcs/sources_1/new/c_bus.v
+update_compile_order -fileset sources_1
+file mkdir C:/Users/alnaser/Documents/verilog/project_6/project_6.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/alnaser/Documents/verilog/project_6/project_6.srcs/sim_1/new/11.v w ]
+add_files -fileset sim_1 C:/Users/alnaser/Documents/verilog/project_6/project_6.srcs/sim_1/new/11.v
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files C:/Users/alnaser/Documents/verilog/project_6/project_6.srcs/sources_1/new/c_bus.v] -no_script -reset -force -quiet
+remove_files  C:/Users/alnaser/Documents/verilog/project_6/project_6.srcs/sources_1/new/c_bus.v
+file delete -force C:/Users/alnaser/Documents/verilog/project_6/project_6.srcs/sources_1/new/c_bus.v
+close [ open C:/Users/alnaser/Documents/verilog/project_6/project_6.srcs/sources_1/new/00.v w ]
+add_files C:/Users/alnaser/Documents/verilog/project_6/project_6.srcs/sources_1/new/00.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source C_BUS_tb.tcl
+current_project project_3
+current_project project_6
+close_sim
+launch_simulation
+source C_BUS_tb.tcl
+close_sim
+launch_simulation
+source C_BUS_tb.tcl
+close_sim
+launch_simulation
+source C_BUS_tb.tcl
+close_sim
+launch_simulation
+source C_BUS_tb.tcl
+close_sim
+launch_simulation
+source C_BUS_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source C_BUS_tb.tcl
+close_sim
+launch_simulation
+source C_BUS_tb.tcl
+close_sim
+launch_simulation
+source C_BUS_tb.tcl
+close_sim
+launch_simulation
+source C_BUS_tb.tcl
+close_sim
+launch_simulation
+source C_BUS_tb.tcl
+close_sim
+launch_simulation
+source C_BUS_tb.tcl
+current_project project_3
+current_sim simulation_29
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+close_sim
+launch_simulation
+source ControlUnit.tcl
+current_project project_6
+launch_simulation
+current_sim simulation_41
+launch_simulation
+launch_simulation
+launch_simulation
+current_project project_3
+current_sim simulation_54
+current_project project_6
+current_sim simulation_41
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source MEMORY_tb.tcl
+close_sim
+launch_simulation
+source MEMORY_tb.tcl
+close_sim
+launch_simulation
+source MEMORY_tb.tcl
+close_sim
+launch_simulation
+source MEMORY_tb.tcl
+close_sim
+launch_simulation
+source MEMORY_tb.tcl
+close_sim
+launch_simulation
+source MEMORY_tb.tcl
+close_sim
+launch_simulation
+source MEMORY_tb.tcl
+create_project project_9 C:/Users/alnaser/Documents/verilog/project_9 -part xc7vx485tffg1157-1
+file mkdir C:/Users/alnaser/Documents/verilog/project_9/project_9.srcs/sources_1/new
+close [ open C:/Users/alnaser/Documents/verilog/project_9/project_9.srcs/sources_1/new/memory.v w ]
+add_files C:/Users/alnaser/Documents/verilog/project_9/project_9.srcs/sources_1/new/memory.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/alnaser/Documents/verilog/project_9/project_9.srcs/sources_1/new/bus.v w ]
+add_files C:/Users/alnaser/Documents/verilog/project_9/project_9.srcs/sources_1/new/bus.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/alnaser/Documents/verilog/project_9/project_9.srcs/sources_1/new/control.v w ]
+add_files C:/Users/alnaser/Documents/verilog/project_9/project_9.srcs/sources_1/new/control.v
+update_compile_order -fileset sources_1
+open_project C:/Users/alnaser/Documents/verilog/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source micro_processor_tb.tcl
+close [ open C:/Users/alnaser/Documents/verilog/project_2/project_2.srcs/sources_1/new/MEM.v w ]
+add_files C:/Users/alnaser/Documents/verilog/project_2/project_2.srcs/sources_1/new/MEM.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top micro_processor [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source micro_processor_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+source micro_processor_tb.tcl
+close_sim
+launch_simulation
+source micro_processor_tb.tcl
+close_sim
+launch_simulation
+source micro_processor_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source micro_processor_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_micro_processor [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source tb_micro_processor.tcl
+close_sim
+launch_simulation
+source tb_micro_processor.tcl
+close_sim
+launch_simulation
+source tb_micro_processor.tcl
+close_sim
+launch_simulation
+source tb_micro_processor.tcl
+current_project project_3
+current_sim simulation_54
+current_project project_2
+current_sim simulation_71
+close_sim
+launch_simulation
+source tb_micro_processor.tcl
+close_sim
+launch_simulation
+source tb_micro_processor.tcl
+close_sim
+launch_simulation
+source tb_micro_processor.tcl
+close_sim
+launch_simulation
+source tb_micro_processor.tcl
+close_sim
+launch_simulation
+source tb_micro_processor.tcl
+close_sim
+launch_simulation
+source tb_micro_processor.tcl
+close_sim
+launch_simulation
+source tb_micro_processor.tcl
+close_sim
+launch_simulation
+source tb_micro_processor.tcl
+archive_project C:/Users/alnaser/Documents/verilog/project_2.xpr.zip -temp_dir C:/Users/alnaser/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-40364-alnaser -force -exclude_run_results -include_local_ip_cache
